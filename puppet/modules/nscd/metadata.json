@@ -1,0 +1,25 @@
+{
+  "name": "CERNOps-nscd",
+  "version": "0.2.0",
+  "author": "Steve Traylen",
+  "summary": "Manages the /etc/nscd.conf file and service",
+  "license": "Apache-2.0",
+  "source": "https://github.com/cernops/puppet-nscd",
+  "issues_url": "https://github.com/cernops/puppet-nscd/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5.0",
+        "6.0",
+        "7.0"
+      ]
+    }
+  ],
+  "description": "Manages the /etc/nscd.conf file and service",
+  "issues": "https://github.com/cernops/puppet-nscd/issues",
+  "project_page": "https://github.com/cernops",
+  "dependencies": [
+    {"version_requirement":">=2.2.1","name":"puppetlabs/stdlib"}
+  ]
+}
