@@ -1,0 +1,26 @@
+{
+  "name": "base",
+  "version": "0.1.0",
+  "author": "Nikita Pivovarov",
+  "license": "Apache-2.0",
+  "summary": "Core modules for base role.",
+  "source": "https://github.com/nikita-pivovarov/bv-prr-puppet-common/puppet/modules",
+  "project_page": "https://github.com/nikita-pivovarov/bv-prr-puppet-common",
+  "issues_url": "issues",
+  "tags": ["base"],
+  "dependencies": [
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease": [
+        "6.0"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet"
+    }
+  ]
+}
